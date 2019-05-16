@@ -1,0 +1,1 @@
+{"product_id":38,"name":"Buffalo","description":"Of all the critters in our T-shirt zoo, this is one of our most popular. A classic animal T-shirt for an individual like yourself!","price":"14.99","discounted_price":"0.00","image":"buffalo.gif","image_2":"buffalo-2.gif","thumbnail":"buffalo-thumbnail.gif","display":0}
