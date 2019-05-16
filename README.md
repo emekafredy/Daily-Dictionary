@@ -14,3 +14,6 @@ A simple ruby application that generates a random product for users daily.
 - run `ruby app.rb` to start up the app
 
 - **NB** If you're making some changes in the code, please install `rerun` globally with `rvm @global do gem install rerun` and start up the server with `rerun app.rb`. This reloads the server whenever changes are made to an important part of the code thereby saving us the stress of stopping and re-starting the server to view changes.
+
+### Author
+- Emeka Samuel, Chinedu
