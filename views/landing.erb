@@ -7,12 +7,12 @@
   <h2> Featured Product for the Day </h2>
   <hr>
   <p>
-    <b class="bold-tag"> Arc d'Triomphe </b>
+    <b> <%= @item["name"] %> </b>
   </p>
 </div>
 <hr>
 <div>
-  <img src="https://res.cloudinary.com/dgbmeqmyf/image/upload/v1556195497/arc-d-triomphe-thumbnail.gif" alt="">
+  <img src="https://res.cloudinary.com/dgbmeqmyf/image/upload/v1556195525/<%= @item["image"] %>" alt="">
 </div>
 
 <div class="row container-fluid product-details jumbotron">
@@ -20,14 +20,14 @@
     <h2 class="bold-tag"> Description: </h2>
   </div>
   <div class="col-md-12 col-lg-6 text-center description">
-    <h2> This beautiful and iconic T-shirt will no doubt lead you to your own triumph. </h2>
+    <h2> <%= @item["description"] %> </h2>
   </div>
   <hr><hr><hr><hr>
   <div class="col-md-12 col-lg-6 text-center">
     <h2 class="bold-tag"> Price: </h2>
   </div>
   <div class="col-md-12 col-lg-6 text-center description">
-    <h2> $14.99 </h2>
+    <h2> $<%= @item["price"] %> </h2>
   </div>
 </div>
 <hr>
