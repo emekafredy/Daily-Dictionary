@@ -1,6 +1,11 @@
 # Daily-Product
 A simple ruby application that generates a random product for users daily.
 
+## Badges
+[![Build Status](https://travis-ci.org/emekafredy/Daily-Product.svg?branch=develop)](https://travis-ci.org/emekafredy/Daily-Product) \|
+[![Coverage Status](https://coveralls.io/repos/github/emekafredy/Daily-Product/badge.svg?branch=develop)](https://coveralls.io/github/emekafredy/Daily-Product?branch=develop) \|
+[![Maintainability](https://api.codeclimate.com/v1/badges/f26324a276451b5567d0/maintainability)](https://codeclimate.com/github/emekafredy/Daily-Product/maintainability)
+
 ## Stack
 [Ruby](https://www.ruby-lang.org/en/)     \|
 [Sinatra](http://sinatrarb.com/documentation.html)

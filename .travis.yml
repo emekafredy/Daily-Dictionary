@@ -1,0 +1,9 @@
+language: ruby
+before_install:
+  - gem install bundler
+notifications:
+    - false
+scripts:
+  - bundle exec rspec spec
+after_script:
+  - bundle exec rake coveralls:push
