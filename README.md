@@ -1,5 +1,5 @@
 # Daily-Product
-A simple ruby application that generates a random product for users daily.
+A simple ruby application that generates a random product for users daily(every 24 hours).
 
 ## Badges
 [![Build Status](https://travis-ci.org/emekafredy/Daily-Product.svg?branch=develop)](https://travis-ci.org/emekafredy/Daily-Product) \|
@@ -14,11 +14,18 @@ A simple ruby application that generates a random product for users daily.
 
 - Before installing the project, make sure you have ruby installed in your system. If not, you can following the instructions [here](https://www.ruby-lang.org/en/documentation/installation/)
 - Clone the repo with `git clone https://github.com/emekafredy/Daily-Product.git`
-- move to the project directory with `cd Daily-Product`
-- run **_bundle install_** (This installs the needed dependencies, including Sinatra)
-- run `ruby app.rb` to start up the app
+- Move to the project directory with `cd Daily-Product`
+- Run **_bundle install_** (This installs the needed dependencies, including Sinatra)
+- Run `rackup` to start up the app
+- Visit the browser with `http://localhost:9292/`
 
-- **NB** If you're making some changes in the code, please install `rerun` globally with `rvm @global do gem install rerun` and start up the server with `rerun app.rb`. This reloads the server whenever changes are made to an important part of the code thereby saving us the stress of stopping and re-starting the server to view changes.
+- **NB** If you're making some changes in the code, please install `rerun` globally with `rvm @global do gem install rerun` and start up the server with `rerun rackup`. This reloads the server whenever changes are made to an important part of the code thereby saving us the stress of stopping and re-starting the server to view changes.
+
+## Testing
+- Run `rspec` in the terminal to run the tests
+
+## Production Link
+- [daily-product](https://daily-product.herokuapp.com/)
 
 ### Author
 - Emeka Samuel, Chinedu
