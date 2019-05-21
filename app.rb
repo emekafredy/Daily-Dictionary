@@ -1,15 +1,9 @@
 require 'sinatra'
-require 'json'
+require_relative "get_product"
 
 set :port, 3000
 
-def page_content()
-  my_product = File.read('files/product.rb')
-  product = JSON.parse(my_product)
-  product
-end
-
 get('/') do
-  @item = page_content
+  @item = get_product
   erb :landing
 end
