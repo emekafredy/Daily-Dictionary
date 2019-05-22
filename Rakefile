@@ -1,4 +1,4 @@
-require_relative "generate_random_product"
+require_relative "generate_random_word"
 require 'rubygems'
 require 'rake'
 require 'rspec/core/rake_task'
@@ -11,7 +11,7 @@ end
 task default: :spec
 Coveralls::RakeTask.new
 
-task :generate_random_product do
-  generate_random_product
-  puts "generate_random_product run successfully"
+task :generate_random_word do
+  generate_random_word('words', 'word')
+  puts "generate_random_word run successfully"
 end

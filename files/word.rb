@@ -1,0 +1,1 @@
+{"definitions":[{"type":"adjective","definition":"likely to have a strong or far-reaching effect; radical and extreme.","example":"a drastic reduction of staffing levels","image_url":null}],"word":"drastic","pronunciation":"ˈdrastik"}

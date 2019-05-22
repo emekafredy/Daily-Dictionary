@@ -1,38 +1,37 @@
-<div class="jumbotron text-center">
-  <h1>  Daily Product View </h1>
-</div>
-<hr>
-
-<div class="text-center">
-  <h2> Featured Product for the Day </h2>
-  <hr>
-  <p>
-    <b> <%= @item["name"] %> </b>
-  </p>
-</div>
-<hr>
-<div>
-  <img src="https://res.cloudinary.com/dgbmeqmyf/image/upload/v1556195525/<%= @item["image"] %>" alt="">
-</div>
-
-<div class="row container-fluid product-details jumbotron">
-  <div class="col-md-12 col-lg-6 text-center">
-    <h2 class="bold-tag"> Description: </h2>
+<div class="wrapper">
+  <hr/>
+    <h3 class="text-center"><em>Buzz Word For Today</em></h3>
+  <div class="card">
+    <img
+      src="https://previews.123rf.com/images/pixelrobot/pixelrobot1504/pixelrobot150400522/38258449-large-blue-english-dictionary-isolated-on-white-background-.jpg"
+      alt="profile img"
+    />
+    <div class="card-body">
+      <h4 class="card-title text-center"> <%= @word["word"].upcase! %> </h4>
+      <hr/>
+      <div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <p class="word-details-key"> Type </p>
+            <span class="word-details-value"> <%= @word["definitions"][0]["type"] %> </span>
+          </li>
+          <li class="list-group-item">
+            <p class="word-details-key"> pronunciation </p>
+            <span class="word-details-value"> <%= @word["pronunciation"] %> </span>
+          </li>
+          <li class="list-group-item">
+            <p class="word-details-key"> Definition </p>
+            <span class="word-details-value"> <%= @word["definitions"][0]["definition"] %> </span>
+          </li>
+          <li class="list-group-item">
+            <p class="word-details-key"> Example </p>
+            <span class="word-details-value"> <%= @word["definitions"][0]["example"] %> </span>
+          </li>
+        </ul>
+        <hr>
+        <em> API from: <a href="https://owlbot.info/" target="_blank"> owlbot </a> </em>
+        <hr>
+      </div>
+    </div>
   </div>
-  <div class="col-md-12 col-lg-6 text-center description">
-    <h2> <%= @item["description"] %> </h2>
-  </div>
-  <hr><hr><hr><hr>
-  <div class="col-md-12 col-lg-6 text-center">
-    <h2 class="bold-tag"> Price: </h2>
-  </div>
-  <div class="col-md-12 col-lg-6 text-center description">
-    <h2> $<%= @item["price"] %> </h2>
-  </div>
-</div>
-<hr>
-<div class="text-center">
-  <button class="btn btn-primary">
-    Make your order
-  </button>
 </div>
