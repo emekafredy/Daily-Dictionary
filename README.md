@@ -25,7 +25,7 @@ A simple ruby application that generates a random word with its definition, exam
 - Run `rspec` in the terminal to run the tests
 
 ## Production Link
-- [daily-dictionary](https://daily-product.herokuapp.com/)
+- [daily-dictionary](https://daily-dictionary.herokuapp.com/)
 
 ### Author
 - Emeka Samuel, Chinedu
