@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      img {
+        width: 50%;
+        margin: auto;
+      }
+
+      .word-details-key {
+        font-size: 0.9rem;
+        font-style: italic;
+      }
+
+      .word-details-value {
+        font-weight: bold;
+      }
+
+      @media screen and (min-width: 1000px) {
+        .wrapper {
+          width: 50%;
+          margin: auto;
+          margin-bottom: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
